@@ -193,3 +193,8 @@ a:visited {
 }
 /*=====================================*/
 
+#contact-info {
+  width: 940px;
+  margin: 0px auto;
+  text-align: center;
+}

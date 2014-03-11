@@ -1,5 +1,5 @@
 var FrontView = Backbone.View.extend({
-  template:  _.template('<img src="<%= uri %>" />'),
+  template:  _.template('<img src="<%= uri %>" class="<%= align %>" />'),
   el: $('#front'),
 
   initialize: function() {

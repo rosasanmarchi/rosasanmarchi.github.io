@@ -56,21 +56,30 @@ ul img {
   vertical-align: middle;
   height: 100px;
   width: 100px;
-  /*height: 100px;*/
   cursor: pointer;
 }
 
-.selected img {
-  border: 1px solid black;
-}
+//img.selected {
+  //border: 1px solid #000000;
+//}
 
 #front {
-	width: 785px;
-	margin: 0 auto;
+	width: 770px;
+  text-align: center;
+  vertical-align: middle;
+	margin: 20px auto;
+  padding: auto;
   float: left;
 }
 
 #front img {
-	margin: 20px auto;
-  width: 775px;
+	margin: 0 auto;
+}
+
+img.horizontal {
+  width: 770px;
+}
+
+img.vertical {
+  height: 600px;
 }
