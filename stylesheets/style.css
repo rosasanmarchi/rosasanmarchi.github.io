@@ -70,13 +70,13 @@ a {
   text-decoration: none;
 }
 
-a:link,
-a:visited {
-  color: #e7e7e7;
+
+#main a:link, a:visited {
+  color: #89979b;
 }
 
-a:hover {
-  color: #f90;
+#main a:hover {
+  color: black;
 }
 
 /*=====================================*/
@@ -190,11 +190,4 @@ a:visited {
 
 #bio-text p {
   margin-bottom: 10px;
-}
-/*=====================================*/
-
-#contact-info {
-  width: 940px;
-  margin: 0px auto;
-  text-align: center;
 }

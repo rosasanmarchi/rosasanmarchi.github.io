@@ -75,6 +75,7 @@ ul img {
 
 #front img {
 	margin: 0 auto;
+  position: relative;
 }
 
 img.horizontal {
@@ -83,4 +84,16 @@ img.horizontal {
 
 img.vertical {
   height: 513px;
+}
+
+/*-------------------*/
+
+#caption {
+  position: absolute;
+  top: 676px;
+  color: white;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  font-weight: 300;
+  letter-spacing: 1px;
 }

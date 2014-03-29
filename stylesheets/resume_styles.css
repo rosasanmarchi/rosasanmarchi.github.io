@@ -1,29 +1,39 @@
-.resume {
+#resume-download {
+  width: 900px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#resume {
 	font-weight: 300;
 }
 
-.resume table {
+#resume table {
 	margin: 5px 0 20px 20px;
 }
 
-.resume p {
+#resume p {
 	margin: 5px 0 20px 20px;
 }
 
-.resume td {
+#resume td {
 	width: 300px;
 	line-height: 22px;
 }
 
-.resume th {
+#resume th {
 	font-weight: bold;
 	text-align: left;
 }
 
-.resume h3 {
+#resume h3 {
 	font-weight: bold;
 	text-align: left;
 	margin-left: 20px;
+}
+
+.single-column td {
+  width: 850px;
 }
 
 #bottom-buffer {

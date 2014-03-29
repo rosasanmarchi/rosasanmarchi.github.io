@@ -3,8 +3,10 @@ var Thumb = Backbone.Model.extend({
     uri: '',
     state: '',
     thumb: '',
-    align: ''
+    align: '',
+    caption: ''
   },
+
   select: function(state){
     this.set({'state': state ? 'selected' : ''});
   }

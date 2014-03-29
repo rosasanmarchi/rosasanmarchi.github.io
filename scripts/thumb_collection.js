@@ -1,10 +1,15 @@
 var Thumbs = Backbone.Collection.extend({
   model: Thumb,
+
   fetch: function() {
-    return _.map(urls, function(img) { 
-      return new Thumb({uri: img.image, thumb: img.thumb, align: img.align})
+    return _.map(images, function(img) { 
+      return new Thumb({uri: img.image,
+                        thumb: img.thumb,
+                        align: img.align,
+                        caption: img.caption})
     });
   },
+
   select: function(model) {
     if( this.selectedThumb() ) {
       this.selectedThumb().select(false);
@@ -13,6 +18,7 @@ var Thumbs = Backbone.Collection.extend({
     this.selected.select(true);
     this.trigger('thumbs:selected');
   },
+
   selectedThumb: function() {
     return this.selected;
   }

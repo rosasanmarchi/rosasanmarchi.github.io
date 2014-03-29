@@ -1,5 +1,7 @@
 var FrontView = Backbone.View.extend({
-  template:  _.template('<img src="<%= uri %>" class="<%= align %>" />'),
+  template: _.template('<img src="<%= uri %>" class="<%= align %>" />'),
+  captionTemplate: _.template('<img src="<%= uri %>" class="<%= align %>" /> <div id="caption"><%= caption %></div>'),
+
   el: $('#front'),
 
   initialize: function() {
@@ -7,7 +9,12 @@ var FrontView = Backbone.View.extend({
   },
 
   render: function() {
-    $(this.el).html(this.template(this.model.selectedThumb().toJSON()));
+    selectedImage = this.model.selectedThumb()
+    if (selectedImage.get("caption") == '') {
+      $(this.el).html(this.template(selectedImage.toJSON()));
+    } else {
+      $(this.el).html(this.captionTemplate(selectedImage.toJSON()));
+    }
   }
 });
 
