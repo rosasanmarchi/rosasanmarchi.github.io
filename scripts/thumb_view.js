@@ -5,9 +5,9 @@ var ThumbView = Backbone.View.extend({
     "click" : "selectThumb"
   },
 
-  initialize: function() {
-    this.model.bind('change',this.render, this);
-  },
+  // initialize: function() {
+  //   this.model.bind('change',this.render, this);
+  // },
 
   render: function() {
     $(this.el).html(this.template(this.model.toJSON()));

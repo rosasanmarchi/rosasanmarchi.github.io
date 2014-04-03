@@ -10,6 +10,7 @@ var FrontView = Backbone.View.extend({
 
   render: function() {
     selectedImage = this.model.selectedThumb()
+
     if (selectedImage.get("caption") == '') {
       $(this.el).html(this.template(selectedImage.toJSON()));
     } else {

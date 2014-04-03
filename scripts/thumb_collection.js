@@ -1,14 +1,9 @@
 var Thumbs = Backbone.Collection.extend({
   model: Thumb,
 
-  fetch: function() {
-    return _.map(images, function(img) { 
-      return new Thumb({uri: img.image,
-                        thumb: img.thumb,
-                        align: img.align,
-                        caption: img.caption})
-    });
-  },
+  // fetch: function(images) {
+  //   this.add(images);
+  // },
 
   select: function(model) {
     if( this.selectedThumb() ) {
@@ -24,4 +19,4 @@ var Thumbs = Backbone.Collection.extend({
   }
 });
 
-var thumbs = new Thumbs;
+var thumbs = new Thumbs(images);

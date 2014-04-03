@@ -32,7 +32,7 @@
 	margin-left: 20px;
 }
 
-.single-column td {
+table.single-column {
   width: 850px;
 }
 

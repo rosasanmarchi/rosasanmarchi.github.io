@@ -8,6 +8,10 @@ var Thumb = Backbone.Model.extend({
   },
 
   select: function(state){
-    this.set({'state': state ? 'selected' : ''});
+    if (state) {
+      this.set('state', 'selected')
+    } else {
+      this.set('state', '')
+    };
   }
 });
