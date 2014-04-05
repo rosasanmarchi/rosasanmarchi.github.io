@@ -1,8 +1,5 @@
 var AppView = Backbone.View.extend({
-  el: $('#gallery-container'),
-
-  render: function() {
-    // thumbs.fetch(images);
+  render: function(thumbs) {
     _.each( thumbs.models, function(thumb) {
         $('div ul#thumbnails').append( new ThumbView({ model: thumb }).render().el )
       });

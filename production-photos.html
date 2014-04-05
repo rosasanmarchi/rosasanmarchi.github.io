@@ -91,10 +91,11 @@
 <script type="text/javascript" src="/scripts/front_view.js"></script>
 <script type="text/javascript" src="/scripts/thumb_view.js"></script>
 <script type="text/javascript" src="/scripts/app_view.js"></script>
-
 <script type="text/javascript">
+  var thumbs = new Thumbs(images);
+  var frontview = new FrontView({ collection: thumbs });
   window.App = new AppView();
-  window.App.render();
+  window.App.render(thumbs);
 </script>
 
         </div>

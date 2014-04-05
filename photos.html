@@ -33,26 +33,31 @@
     {
      uri: '/images/rosa_orange_800.jpg',
      thumb: '/images/rosa_orange_125.jpg',
+     caption: 'popio stumpf photography',
      align: 'horizontal'
     },
     {
      uri: '/images/rosa_smile_600.jpg',
      thumb:'/images/rosa_smile_125.jpg',
+     caption: 'popio stumpf photography',
      align: 'vertical'
     },
     {
      uri: '/images/rosa_gray_800.jpg',
      thumb: '/images/rosa_gray_125.jpg',
+     caption: 'popio stumpf photography',
      align: 'horizontal'
     },
     {
      uri: '/images/rosa_blue_600.jpg',
      thumb: '/images/rosa_blue_125.jpg',
+     caption: 'popio stumpf photography',
      align: 'vertical'
     },
     {
      uri: '/images/rosa_purple2_800.jpg',
      thumb: '/images/rosa_purple2_125.jpg',
+     caption: 'popio stumpf photography',
      align: 'horizontal'
     }
   ]
@@ -86,10 +91,11 @@
 <script type="text/javascript" src="/scripts/front_view.js"></script>
 <script type="text/javascript" src="/scripts/thumb_view.js"></script>
 <script type="text/javascript" src="/scripts/app_view.js"></script>
-
 <script type="text/javascript">
+  var thumbs = new Thumbs(images);
+  var frontview = new FrontView({ collection: thumbs });
   window.App = new AppView();
-  window.App.render();
+  window.App.render(thumbs);
 </script>
 
         </div>

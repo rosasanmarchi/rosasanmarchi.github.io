@@ -1,22 +1,15 @@
 var FrontView = Backbone.View.extend({
-  template: _.template('<img src="<%= uri %>" class="<%= align %>" />'),
-  captionTemplate: _.template('<img src="<%= uri %>" class="<%= align %>" /> <div id="caption"><%= caption %></div>'),
+  template: _.template('<img src="<%= uri %>" class="<%= align %>" />' +
+                               '<div id="caption" class="<%= align %>-caption"><%= caption %></div>'),
 
   el: $('#front'),
 
   initialize: function() {
-    this.model.bind('thumbs:selected', this.render, this);
+    this.collection.bind('thumbs:selected', this.render, this);
   },
 
   render: function() {
-    selectedImage = this.model.selectedThumb()
-
-    if (selectedImage.get("caption") == '') {
-      $(this.el).html(this.template(selectedImage.toJSON()));
-    } else {
-      $(this.el).html(this.captionTemplate(selectedImage.toJSON()));
-    }
+    selectedImage = this.collection.selectedThumb()
+    $(this.el).html(this.template(selectedImage.toJSON()));
   }
 });
-
-var frontview = new FrontView({ model: thumbs });
