@@ -1,0 +1,174 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>http://rosasanmarchi.com/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2015-05-25</lastmod>
+    <image:image>
+      <image:loc>http://www.rosasanmarchi.com/images/rosa_index_485.jpg</image:loc>
+      <image:title>Rosa SanMarchi - Home</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://rosasanmarchi.com/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+    <lastmod>2015-05-25</lastmod>
+    <image:image>
+      <image:loc>
+        http://static1.squarespace.com/static/51f0612fe4b0a3af2bfe207e/51f0612fe4b0a3af2bfe2089/51f0612fe4b0a3af2bfe20a2/1349817862394/1349812992530.png
+      </image:loc>
+      <image:title>Contact - Transient</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://static1.squarespace.com/static/51f0612fe4b0a3af2bfe207e/51f0612fe4b0a3af2bfe2089/51f6cf23e4b0de43ba6555cf/1429307653429/Stewart+Talent
+      </image:loc>
+      <image:title>Contact</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://static1.squarespace.com/static/51f0612fe4b0a3af2bfe207e/51f0612fe4b0a3af2bfe2089/51f6cf56e4b06efc20f26d78/1429307653753/Stewart+Chicago-1.jpg
+      </image:loc>
+      <image:title>Contact</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://static1.squarespace.com/static/51f0612fe4b0a3af2bfe207e/51f0612fe4b0a3af2bfe2089/51f6cf3ee4b098110af534ef/1375129409171/Big+Mouth+Talent
+      </image:loc>
+      <image:title>Contact</image:title>
+      <image:caption/>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://rosasanmarchi.com/resume.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+    <lastmod>2015-05-25</lastmod>
+  </url>
+  <url>
+    <loc>http://rosasanmarchi.com/photos.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+    <lastmod>2015-05-25</lastmod>
+    <image:image>
+      <image:loc>
+        http://www.rosasanmarchi.com/images/rosa_orange_800.jpg
+      </image:loc>
+      <image:title>rosa headshot sweater</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/rosa_smile_600.jpg
+      </image:loc>
+      <image:title>rosa headshot smile purple</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/rosa_gray_800.jpg
+      </image:loc>
+      <image:title>rosa headshot gray</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/rosa_blue_600.jpg
+      </image:loc>
+      <image:title>rosa headshot blue</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/rosa_purple2_800.jpg
+      </image:loc>
+      <image:title>rosa headshot purple</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/vog_1_800.jpg
+      </image:loc>
+      <image:title>Rosa production photo Victims of Gravity 1</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/vog_2_800.jpg
+      </image:loc>
+      <image:title>Rosa production photo Victims of Gravity 2</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/vog_3_800.jpg
+      </image:loc>
+      <image:title>Rosa production photo Victims of Gravity 3</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/fall_in_love1_800.jpg
+      </image:loc>
+      <image:title>Rosa production photo Dodge Challenger spec commercial</image:title>
+      <image:caption/>
+    </image:image>
+    <image:image>
+      <image:loc>
+        http://rosasanmarchi.com/images/fall_in_love2_800.jpg
+      </image:loc>
+      <image:title>Rosa production photo Dodge Challenger spec commercial 2</image:title>
+      <image:caption/>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://rosasanmarchi.com/video.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+    <lastmod>2015-05-25</lastmod>
+    <video:video>
+      <video:player_loc allow_embed="yes" autoplay="ap=0">        http://player.vimeo.com/video/121911535?title=0&amp;byline=0&amp;portrait=0&amp;color=ffcc00
+      </video:player_loc>
+      <video:title>AT&T UVerse Commercial</video:title>  
+      <video:description>
+        AT&T U-Verse Regional commercial.
+      </video:description>
+    </video:video>
+    <video:video>
+      <video:player_loc allow_embed="yes" autoplay="ap=0">        http://player.vimeo.com/video/114484909?title=0&amp;byline=0&amp;portrait=0&amp;color=ffcc00
+      </video:player_loc>
+      <video:title>Victims of Gravity</video:title>  
+      <video:description>
+        Short Film by Vlady Valentin Oszkiel.
+      </video:description>
+    </video:video>
+    <video:video>
+      <video:player_loc allow_embed="yes" autoplay="ap=0">        http://player.vimeo.com/video/42798798?title=0&amp;byline=0&amp;portrait=0&amp;color=ffcc00
+      </video:player_loc>
+      <video:title>Dodge Challenger Spec Shoot</video:title>  
+      <video:description>
+        Spec shoot by Sorrel Ahlfeld.
+      </video:description>
+    </video:video>
+    <video:video>
+      <video:player_loc allow_embed="yes" autoplay="ap=0">        http://player.vimeo.com/video/31119403?title=0&amp;byline=0&amp;portrait=0&amp;color=ffcc00
+      </video:player_loc>
+      <video:title>Preval Commercial</video:title>  
+      <video:description>
+        Preval commercial by Sean Williams.
+      </video:description>
+    </video:video>
+    <video:video>
+      <video:player_loc allow_embed="no" autoplay="ap=0">        //www.ispot.tv/share/7tbc
+      </video:player_loc>
+      <video:title>Walmart Commercial</video:title>  
+      <video:description>
+        Walmart Commercial - Spanish Market.
+      </video:description>
+    </video:video>
+  </url>
+</urlset>
