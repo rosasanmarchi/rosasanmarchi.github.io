@@ -133,9 +133,9 @@
     <video:video>
       <video:player_loc allow_embed="yes" autoplay="ap=0">        http://player.vimeo.com/video/121911535?title=0&amp;byline=0&amp;portrait=0&amp;color=ffcc00
       </video:player_loc>
-      <video:title>AT&T UVerse Commercial</video:title>  
+      <video:title>ATT UVerse Commercial</video:title>  
       <video:description>
-        AT&T U-Verse Regional commercial.
+        ATT U-Verse Regional commercial.
       </video:description>
     </video:video>
     <video:video>
