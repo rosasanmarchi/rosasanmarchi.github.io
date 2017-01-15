@@ -39,47 +39,7 @@
           </div>
         </div>
         <div id="main">
-          <script type="text/javascript">
-  var images = [
-    {
-     uri: '/images/vog_1_800.jpg',
-     thumb: '/images/vog_1_125.jpg',
-     align: 'horizontal',
-     caption: 'Victims of Gravity'
-    },
-    {
-     uri: '/images/vog_2_800.jpg',
-     thumb: '/images/vog_2_125.jpg',
-     align: 'horizontal',
-     caption: 'Victims of Gravity'
-    },
-    {
-     uri: '/images/vog_3_800.jpg',
-     thumb: '/images/vog_3_125.jpg',
-     align: 'horizontal',
-     caption: 'Victims of Gravity'
-    },
-    {
-     uri: '/images/fall_in_love1_800.jpg',
-     thumb: '/images/fall_in_love1_125.jpg',
-     align: 'horizontal',
-     caption: 'Dodge Challenger'
-    },
-    {
-     uri: '/images/fall_in_love2_800.jpg',
-     thumb: '/images/fall_in_love2_125.jpg',
-     align: 'horizontal',
-     caption: 'Dodge Challenger'
-    }
-  ]
-</script>
-
-<script type="text/javascript" src="/public/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="/public/underscore-min.js"></script>
-<script type="text/javascript" src="/public/backbone-min.js"></script>
-<script type="text/javascript" src="/public/json2.js"></script>
-
-<div id="navigation-photo">
+          <div id="navigation-photo">
   <div id="navigation-photo-buttons">
     <ul>
       <li><a href="/photos.html">headshots</a></li>
@@ -88,27 +48,46 @@
  </div>
 </div>
 
-<div id="photo-container">
-  <div id="thumbs-container">
-    <ul id="thumbnails">
+
+<link rel="stylesheet" href="stylesheets/lightgallery.css">
+<script type="text/javascript" src="/public/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/public/lightgallery.min.js"></script>
+<script type="text/javascript" src="/public/lg-fullscreen.min.js"></script>
+<script type="text/javascript" src="/public/lg-thumbnail.min.js"></script>
+
+<div id="gallery-container">
+  <div id="headshot-list">
+    <ul id="production-gallery">
+      <li data-src=/images/production/fall_in_love1_800.jpg>
+        <img src="/images/production/thumbs/fall_in_love1.jpg" />
+      </li>
+      <li data-src="/images/production/fall_in_love2_800.jpg">
+        <img src="/images/production/thumbs/fall_in_love2.jpg" />
+      </li>
+      <li data-src="/images/production/scott_naturals.jpg">
+        <img src="/images/production/thumbs/scott_naturals.jpg" />
+      </li>
+      <li data-src="/images/production/vog_1_800.jpg">
+        <img src="/images/production/thumbs/vog_1.jpg" />
+      </li>
+      <li data-src="/images/production/vog_2_800.jpg">
+        <img src="/images/production/thumbs/vog_2.jpg" />
+      </li>
+      <li data-src="/images/production/vog_3_800.jpg">
+        <img src="/images/production/thumbs/vog_3.jpg" />
+      </li>
     </ul>
-  </div>
-  <div id="front">
   </div>
 </div>
 
-<script type="text/javascript" src="/scripts/thumb_model.js"></script>
-<script type="text/javascript" src="/scripts/thumb_collection.js"></script>
-<script type="text/javascript" src="/scripts/front_view.js"></script>
-<script type="text/javascript" src="/scripts/thumb_view.js"></script>
-<script type="text/javascript" src="/scripts/app_view.js"></script>
 <script type="text/javascript">
-  var thumbs = new Thumbs(images);
-  var frontview = new FrontView({ collection: thumbs });
-  window.App = new AppView();
-  window.App.render(thumbs);
+  $(document).ready(function() {
+    $("#production-gallery").lightGallery({
+      thumbnail: false
+    });
+  });
 </script>
-
         </div>
       </div>
     </div>

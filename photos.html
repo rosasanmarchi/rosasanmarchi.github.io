@@ -39,47 +39,7 @@
           </div>
         </div>
         <div id="main">
-          <script type="text/javascript">
-  var images = [
-    {
-     uri: '/images/rosa_orange_800.jpg',
-     thumb: '/images/rosa_orange_125.jpg',
-     caption: 'popio stumpf photography',
-     align: 'horizontal'
-    },
-    {
-     uri: '/images/rosa_smile_600.jpg',
-     thumb:'/images/rosa_smile_125.jpg',
-     caption: 'popio stumpf photography',
-     align: 'vertical'
-    },
-    {
-     uri: '/images/rosa_gray_800.jpg',
-     thumb: '/images/rosa_gray_125.jpg',
-     caption: 'popio stumpf photography',
-     align: 'horizontal'
-    },
-    {
-     uri: '/images/rosa_blue_600.jpg',
-     thumb: '/images/rosa_blue_125.jpg',
-     caption: 'popio stumpf photography',
-     align: 'vertical'
-    },
-    {
-     uri: '/images/rosa_purple2_800.jpg',
-     thumb: '/images/rosa_purple2_125.jpg',
-     caption: 'popio stumpf photography',
-     align: 'horizontal'
-    }
-  ]
-</script>
-
-<script type="text/javascript" src="/public/jquery-2.0.3.min.js"></script>
-<script type="text/javascript" src="/public/underscore-min.js"></script>
-<script type="text/javascript" src="/public/backbone-min.js"></script>
-<script type="text/javascript" src="/public/json2.js"></script>
-
-<div id="navigation-photo">
+          <div id="navigation-photo">
   <div id="navigation-photo-buttons">
     <ul>
       <li><a href="/photos.html">headshots</a></li>
@@ -88,27 +48,55 @@
  </div>
 </div>
 
-<div id="photo-container">
-  <div id="thumbs-container">
-    <ul id="thumbnails">
+
+<link rel="stylesheet" href="stylesheets/lightgallery.css">
+<script type="text/javascript" src="/public/jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/public/lightgallery.min.js"></script>
+<script type="text/javascript" src="/public/lg-fullscreen.min.js"></script>
+<script type="text/javascript" src="/public/lg-thumbnail.min.js"></script>
+
+<div id="gallery-container">
+  <div id="headshot-list">
+    <ul id="headshot-gallery">
+      <li data-src="/images/2016-headshots/blue1.jpg">
+        <img src="/images/2016-headshots/thumbs/blue1-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/blue2.jpg">
+        <img src="/images/2016-headshots/thumbs/blue2-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/blue3.jpg">
+        <img src="/images/2016-headshots/thumbs/blue3-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/denim1.jpg">
+        <img src="/images/2016-headshots/thumbs/denim1-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/pink1.jpg">
+        <img src="/images/2016-headshots/thumbs/pink1-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/pink2.jpg">
+        <img src="/images/2016-headshots/thumbs/pink2-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/pink3.jpg">
+        <img src="/images/2016-headshots/thumbs/pink3-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/teal1.jpg">
+        <img src="/images/2016-headshots/thumbs/teal1-thumb.jpg" />
+      </li>
+      <li data-src="/images/2016-headshots/teal2.jpg">
+        <img src="/images/2016-headshots/thumbs/teal2-thumb.jpg" />
+      </li>
     </ul>
-  </div>
-  <div id="front">
   </div>
 </div>
 
-<script type="text/javascript" src="/scripts/thumb_model.js"></script>
-<script type="text/javascript" src="/scripts/thumb_collection.js"></script>
-<script type="text/javascript" src="/scripts/front_view.js"></script>
-<script type="text/javascript" src="/scripts/thumb_view.js"></script>
-<script type="text/javascript" src="/scripts/app_view.js"></script>
 <script type="text/javascript">
-  var thumbs = new Thumbs(images);
-  var frontview = new FrontView({ collection: thumbs });
-  window.App = new AppView();
-  window.App.render(thumbs);
+  $(document).ready(function() {
+    $("#headshot-gallery").lightGallery({
+      thumbnail: false
+    });
+  });
 </script>
-
         </div>
       </div>
     </div>

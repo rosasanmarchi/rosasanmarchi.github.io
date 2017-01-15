@@ -139,7 +139,6 @@ a:visited {
 #main {
   width: 940px;
   height: 350px;
-  margin: 10px auto 0 auto;
   padding: auto 0px;  
 }
 
@@ -153,10 +152,6 @@ a:visited {
 #main p {
   font-size: 15px;
   line-height: 20px;
-}
-
-#main ul, #main ol {
-  margin: 20px;
 }
 
 #footer {

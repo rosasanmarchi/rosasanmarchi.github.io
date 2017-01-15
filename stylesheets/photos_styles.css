@@ -37,67 +37,22 @@ a:visited {
 
 /*-------------------*/
 
-#thumbs-container {
-	width: 145px;	
-	margin: auto;
+#gallery-container {
+  width: 80%;
+  margin: 20px 8%;
+}
+
+#gallery-container ul {
+  padding: 20px;
+  width: 750px;
+}
+
+#headshot-list li {
   float: left;
+  width: 230px;
+  padding: 10px;
 }
 
-#thumbnails ul {
-	list-style-type: none;
-}
-
-#thumbnails li {
-	float: left;
-	margin: 0 5px 9px 0px;
-}
-
-ul img {
-  vertical-align: middle;
-  height: 95px;
-  width: 95px;
-  cursor: pointer;
-}
-
-//img.selected {
-  //border: 1px solid #000000;
-//}
-
-#front {
-  text-align: center;
-	width: 770px;
-  height: 513px;
-	margin: 20px auto;
-  padding: auto;
-  float: left;
-  background-color: #e7e7e7;
-}
-
-#front img {
-	margin: 0 auto;
-  position: relative;
-}
-
-img.horizontal {
-  width: 770px;
-}
-
-img.vertical {
-  height: 513px;
-}
-
-/*-------------------*/
-
-div#caption {
-  position: absolute;
-  top: 678px;
-  padding: 5px;
-  font-weight: 300;
-  font-size: .9em;
-  letter-spacing: 1px;
-}
-
-div.horizontal-caption {
-  color: white;
-  background: rgba(0, 0, 0, 0.3);
+#headshot-list img {
+  width: 100%;
 }
